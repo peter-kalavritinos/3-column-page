@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 body {
     background-color: #f2f2f2;
     background-position: right 50vw bottom 50vh, left 50vw top 50vh;
@@ -11,56 +12,93 @@ body {
 containor {
     display: flex;
     margin-top: 200px;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 h1 {
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--very-light-gray);
+    text-transform: uppercase;
+    padding: 25px 0;
     color: #ffffff;
 }
 
 p {
-    font-family: 'Kumb Sans', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    line-height: 2.0;
+    margin-bottom: 40px;
     color: #ffffff;
 }
 
 .column-1 {
+    padding: 30px;
     background-color: #cc8531;
     text-align: center;
+    border-radius: 10px 0 0 10px;
 }
 
 .column-2 {
+    padding: 30px;
     background-color: #3b6972;
     text-align: center;
+    border-radius: 0px 0px 0 0;
 }
 
 .column-3 {
+    padding: 30px;
     background-color: #264241;
     text-align: center;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .button-1 {
-    background-color: #ffffff;
-    border-color: #ffffff;
-    border-radius: 35%;
-    font-family: 'Kumbh Sans', sans-serif;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #cc8531;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .button-2 {
-    background-color: #ffffff;
-    border-color: #ffffff;
-    border-radius: 35%;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #3b6972;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .button-3 {
-    background-color: #ffffff;
-    border-color: #ffffff;
-    border-radius: 35%;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #264241;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.button-1:hover {
+    color: var(--very-dark-cyan);
+}
+
+.button-2:hover {
+    color: var(--very-dark-cyan);
+}
+
+.button-3:hover {
+    color: var(--very-dark-cyan);
 }
 
 .attribution {
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
     text-align: center;
     position: fixed;
     left: 0;
